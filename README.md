@@ -76,3 +76,8 @@ Para conectar o Dify aos modelos locais, foi instalado o plugin oficial do Ollam
  
 > **Por que `172.17.0.1`?** Foi utilizado o IP da bridge do Docker no Linux como garantia de conexão, caso o `host.docker.internal` não resolva na máquina host.
  
+## 🧪 4. Testes Realizados
+
+Abaixo estão os cenários de testes validados na máquina local. Cada link direciona para a documentação detalhada com os prints, logs e consumo de hardware.
+
+* [Teste 01: Chatbot Local Inicial (Qwen 2.5)](Tarefas/TESTEINICIAL.md) — Validação básica de resposta offline e comprovação de consumo da GPU (RX 6600).
